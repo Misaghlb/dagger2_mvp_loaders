@@ -1,4 +1,4 @@
-package com.android.app.misaghlb.dagger2_mvp_loaders.ui.activity.base;
+package com.android.app.misaghlb.dagger2_mvp_loaders.ui.base;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

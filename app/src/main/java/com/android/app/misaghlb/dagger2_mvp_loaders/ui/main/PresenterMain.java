@@ -30,7 +30,6 @@ public class PresenterMain implements ContractMain.Presenter {
 
     @Override
     public void onViewAttached(BaseView view) {
-        Timber.d(mMainView+"");
         mMainView = (ContractMain.View) view;
     }
 
@@ -54,7 +53,6 @@ public class PresenterMain implements ContractMain.Presenter {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Timber.i("Done");
                 mMainView.changeColor();
             }
         }, 4000);

@@ -12,7 +12,7 @@ public class ModuleMain {
     }
 
     @Provides
-    ContractMain.View provideStatisticsContractView() {
+    ContractMain.View provideMainContractView() {
         return mView;
     }
 }

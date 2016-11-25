@@ -7,7 +7,7 @@ import android.support.v4.content.Loader;
 import com.android.app.misaghlb.dagger2_mvp_loaders.App;
 import com.android.app.misaghlb.dagger2_mvp_loaders.R;
 import com.android.app.misaghlb.dagger2_mvp_loaders.di.PresenterLoader;
-import com.android.app.misaghlb.dagger2_mvp_loaders.ui.activity.base.ActivityBase;
+import com.android.app.misaghlb.dagger2_mvp_loaders.ui.base.ActivityBase;
 import com.android.app.misaghlb.dagger2_mvp_loaders.utils.ActivityUtil;
 
 import javax.inject.Inject;
@@ -43,13 +43,11 @@ public class ActivityMain extends ActivityBase implements LoaderManager.LoaderCa
     @Override
     protected void onStop() {
         super.onStop();
-        Timber.i("onStop a");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Timber.i("onDestroy a");
     }
 
     @Override
